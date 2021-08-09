@@ -34,7 +34,7 @@ html{
 }
 
 body {
-  background-color: var(--cultured);
+  background: -webkit-radial-gradient(center, var(--slate-gray) 0%, var(--cultured) 49%, var(--light-gray) 100%);
   overflow-x: hidden; /*recuerda bloqueaste aqui el scroll lateral*/
 }
 
@@ -199,6 +199,7 @@ form {
 
 .list-name{
   background-color: var(--slate-gray);
+  background: -webkit-linear-gradient(left, var(--gunmetal) 0%, var(--slate-gray) 73%, var(--charleston-green) 100%);
   display: flex;
   flex-direction: row;
   margin: 2rem 1rem;
