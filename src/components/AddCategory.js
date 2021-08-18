@@ -16,7 +16,7 @@ export const AddCategory = ({ setCategories }) => {
         elemt.preventDefault();//para prevenir el submit por defecto del nav. es decir por "refresh"
         // console.log('Submit hecho')
         //trim => para borrar espacios antes y despues del string
-        if(inputValue.trim().length >= 2){
+        if(inputValue.trim().length >= 3){
             setCategories( gifs => [inputValue, ...gifs]);
             setInputValue('');//para que no haga doble posteo y en respuesta al dar intro devulve vacio
         }
@@ -39,6 +39,7 @@ export const AddCategory = ({ setCategories }) => {
                 className="container-search-btn"><FontAwesomeIcon icon={ faSearch }/>
                 </button>
             </fieldset>
+            { inputValue.trim().length === 0 || inputValue.trim().length  > 2  || (<p className="flashing-text" >Remember that your search must include at least 3 characters. </p>)}
         </form>
     );
 }

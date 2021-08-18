@@ -27,6 +27,7 @@
   --shade-of-rose-red:#b56576;
   --yellow-dark-RGB:rgb(255, 217, 0);
   --light-blue-RGB: rgb(44, 110, 175);
+  --RYB-Red:#F32013;
 }
 
 html{
@@ -112,7 +113,7 @@ body::-webkit-scrollbar-thumb{
 /*PARTE 2 barra de busqueda*/
 
 form {
-  width: 30rem;
+  width: auto;
   margin: 0 3rem;
 }
 
@@ -163,6 +164,15 @@ form {
 
 .separator {
   border-bottom: 4px dotted dodgerblue;
+}
+
+.flashing-text {
+  color: var(--RYB-Red);
+  margin:0 0 10px 60px ;
+  font-family: 'Lora', serif;
+  font-weight: 400;
+  font-size: 16px;
+  width: auto;
 }
 
 /*PARTE 3 titulo y descripcion */
