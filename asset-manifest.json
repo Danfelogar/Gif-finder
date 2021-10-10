@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Gif-finder/static/css/main.eb3527d9.chunk.css",
+    "main.js": "/Gif-finder/static/js/main.27d105ee.chunk.js",
+    "main.js.map": "/Gif-finder/static/js/main.27d105ee.chunk.js.map",
+    "runtime-main.js": "/Gif-finder/static/js/runtime-main.54ead807.js",
+    "runtime-main.js.map": "/Gif-finder/static/js/runtime-main.54ead807.js.map",
+    "static/js/2.56730b52.chunk.js": "/Gif-finder/static/js/2.56730b52.chunk.js",
+    "static/js/2.56730b52.chunk.js.map": "/Gif-finder/static/js/2.56730b52.chunk.js.map",
+    "index.html": "/Gif-finder/index.html",
+    "static/css/main.eb3527d9.chunk.css.map": "/Gif-finder/static/css/main.eb3527d9.chunk.css.map",
+    "static/js/2.56730b52.chunk.js.LICENSE.txt": "/Gif-finder/static/js/2.56730b52.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.54ead807.js",
+    "static/js/2.56730b52.chunk.js",
+    "static/css/main.eb3527d9.chunk.css",
+    "static/js/main.27d105ee.chunk.js"
+  ]
+}
